@@ -97,13 +97,6 @@
 	min-height:100%; 
 	background: #fff;
 }
-
-@media (min-width: 768px) {
-    .carousel img{
-    	width: auto;
-        height:450px
-    }
-} 
 .carousel{
 	position: relative;
 	li{
@@ -115,6 +108,14 @@
 	} 
 
 }
+@media (max-width: 768px) {
+    .carousel img{
+    	width: auto;
+        height:450px;
+        margin:0 -100px;
+    }
+} 
+
 .carousel-indicators{
 	text-align: center;
 	a{
