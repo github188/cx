@@ -97,8 +97,18 @@
 	min-height:100%; 
 	background: #fff;
 }
+
+@media (min-width: 768px) {
+    .carousel img{
+    	width: auto;
+        height:450px
+    }
+} 
 .carousel{
 	position: relative;
+	li{
+		overflow: hidden;
+	}
 	img{
 		width: 100%;
 		height:auto;
