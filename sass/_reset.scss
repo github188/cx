@@ -1,0 +1,31 @@
+html, body, div, header, blockquote, section, p, h1, h2, h3, ul, ol, li, input, select, textarea, form ,nav{
+     margin: 0;
+     padding: 0;
+     -webkit-tap-highlight-color: transparent;
+      -webkit-font-size-adjust:none; 
+
+ }
+ header,footer,nav{
+    display: block;
+ }
+ ul {
+     list-style: none;
+ }
+ 
+ a {
+     outline: none;
+     text-decoration: none;
+     color: #333;
+ }
+ img{
+    border:none;
+    outline: none;
+ }
+ input,select, textarea,table {
+         font: inherit;
+         color: inherit;
+         outline: none;
+} 
+ body, html {
+         height: 100%;
+}
