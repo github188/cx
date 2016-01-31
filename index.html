@@ -1,57 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/index.css"> 
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/index.css">    
+    <link rel="stylesheet" href="font/style.css">
+    <script src="js/jquery.js"></script>
+	<script src="js/johndyer-mediaelement/mediaelement-and-player.min.js"></script>
+	<link rel="stylesheet" href="js/johndyer-mediaelement/css/mediaelementplayer.css" />
+	<link rel="stylesheet" href="js/johndyer-mediaelement/css/mejs-skins.css" />
 </head>
+
 <body>
-	<div class="header">
-		<div class="logo-container">
-			<div class="container  "> 
-					<div class="logo"></div>
-					<div class="logo-right"></div> 
-				    </div>
-		</div>
-		<div class="header-nav">
-			<ul class="container nav ">
-				<li class="current"><a href="javascript:void(0)">首页</a></li>
-				<li><a href="javascript:void(0)">平台与服务</a>
-					<ul class="sub-nav">
-						<li><a href="javascript:void(0)">车联网平台</a></li>
-						<li><a href="javascript:void(0)">位置关爱平台</a></li>
-						<li><a href="javascript:void(0)">移动商务平台</a></li>
-						<li><a href="javascript:void(0)">物联网平台</a></li>
-						<li><a href="javascript:void(0)">软件外包平台</a></li>
-					</ul>
-				</li>
-				<li><a href="javascript:void(0)">新闻中心</a></li>
-				<li><a href="javascript:void(0)">加入我们</a></li>
-				<li><a href="javascript:void(0)">联系我们</a></li>
-			</ul>
-		</div> 
-	</div>
-	<div class="scroll-wap">
-	    <div class="carousel-wap">
-	    	<ul class="carousel">
-	    		<li>
-	    		    <a href="javascript:void(0)" class="current">
-	    				<img src="images/banner/banner1.png"  alt="">
-	    			</a>
-	    		</li>
-	    	</ul>
-	    	<div class="carousel-indicators">
-	    		<a href="javascript:void(0)" class="current"></a> 
-	    		<a href="javascript:void(0)"></a>
-	    		<a href="javascript:void(0)"></a>
-	    		<a href="javascript:void(0)"></a>
+    <div class="header">
+        <div class="logo-container">
+            <div class="container  ">
+                <div class="logo"></div>
+                <div class="logo-right"></div>
+            </div>
+        </div>
+        <div class="header-nav">
+            <ul class="container nav ">
+                <li class="current"><a href="javascript:void(0)">首页</a></li>
+                <li><a href="javascript:void(0)">平台与服务</a>
+                    <ul class="sub-nav">
+                        <li><a href="javascript:void(0)">车联网平台</a></li>
+                        <li><a href="javascript:void(0)">位置关爱平台</a></li>
+                        <li><a href="javascript:void(0)">移动商务平台</a></li>
+                        <li><a href="javascript:void(0)">物联网平台</a></li>
+                        <li><a href="javascript:void(0)">软件外包平台</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascript:void(0)">新闻中心</a></li>
+                <li><a href="javascript:void(0)">加入我们</a></li>
+                <li><a href="javascript:void(0)">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="scroll-wap">
+        <div class="carousel-wap">
+            <ul class="carousel">
+                <li>
+                    <a href="javascript:void(0)" class="current">
+                        <img src="images/banner/banner1.png" alt="">
+                    </a>
+                </li>
+            </ul>
+            <div class="carousel-indicators">
+                <a href="javascript:void(0)" class="current"></a>
+                <a href="javascript:void(0)"></a>
+                <a href="javascript:void(0)"></a>
+                <a href="javascript:void(0)"></a>
+            </div>
+        </div>
+        <div class="container clearfix">
+            <div class="box new-list ">
+                <div class="box-h">
+                    <i class="circle"></i>最新资讯
+                    <a href="javascript:void(0)">more</a>
+                </div>
+                <div class="box-c row clearfix current">
+                    <div class="new-item">
+                        <div class="img-wap">
+                            <img src="images/item1.png" alt="">
+                        </div>
+                        <p class="new-item-txt">RoadPal路盼作为中国
+                        电信车联网产品
+                        在2015年 .. </p>
+                        <p class="new-item-time">2015-07</p>
+                    </div>
+                    <div class="new-item">
+                        <div class="img-wap">
+                            <img src="images/item1.png" alt="">
+                        </div>
+                        <p class="new-item-txt">RoadPal路盼作为中国电信车联网产品在2015年世界 ... </p>
+                        <p class="new-item-time">2015-07</p>
+                    </div>
+                    <div class="new-item">
+                        <div class="img-wap">
+                            <img src="images/item1.png" alt="">
+                        </div>
+                        <p class="new-item-txt">RoadPal路盼作为中国电信车联网产品在2015年世界 ... </p>
+                        <p class="new-item-time">2015-07</p>
+                    </div>
+                    <div class="new-item">
+                        <div class="img-wap">
+                            <img src="images/item1.png" alt="">
+                        </div>
+                        <p class="new-item-txt">RoadPal路盼作为中国电信车联网产品在2015年世界... </p>
+                        <p class="new-item-time">2015-07</p>
+                    </div>
+                </div>
+                <div class="box-indicators">
+		    		<a href="javascript:void(0)" class="current"></a> 
+		    		<a href="javascript:void(0)"></a>
+		    		<a href="javascript:void(0)"></a>
+		    		<a href="javascript:void(0)"></a>
 	    	</div>
-	    </div>
-	    <div class="container">
-	   
-	    </div>
-	</div> 
+            </div>
+            <div  class="box viewgroup">
+            	<div class="box-h">
+                    <i class="circle"></i>集团视角 
+                </div>
+                <div class="box-c">
+                	<!-- poster设置视频的预览图-->
+                	<video  width="100% " height="100%" controls="controls" poster="images/video.png" class="mejs-my" >
+                		<source  src="images/mi.mp4" type="video/mp4">
+                	</video>
+                </div>
+            </div>
+        </div>
+        <div class="container">			
+        </div>
+    </div>
+    <script>
+	// using jQuery
+$('audio,video').mediaelementplayer({
+	success: function(player, node) {
+		$('#' + node.id + '-mode').html('mode: ' + player.pluginType);
+	}
+});
+</script>
 </body>
-</html> 
+
+</html>
