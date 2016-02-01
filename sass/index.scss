@@ -17,30 +17,30 @@
 } 
 
  .container { 
-    width: auto;
-    margin:0 15px;
+    width: 1100px;
+    margin:0 auto;
 	position: relative;
  } 
-@media  only screen and (min-width: 768px) {
+@media  only screen and (max-width: 768px) {
     .container {
         width:auto;
         margin:0 10px;
     }
 }
-@media  only screen and (min-width: 1099px) {
+@media  only screen and (max-width: 1099px) {
     .container {
         width:auto;
         margin:0 10px;
     }
 }
-@media only screen and  (min-width: 1099px) {
+@media only screen and  (max-width: 1099px) {
     .container {
         width:970px;
         margin:0 auto;
     }
 }
 
-@media  only screen and  (min-width: 1200px) {
+@media  only screen and  (max-width: 1200px) {
     .container {
         width:1100px;
         margin:0 auto;
@@ -296,12 +296,14 @@
 			}
 		}  
 		.h-line-l{
+			filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 1, startColorstr = #fff, endColorstr = #bbbcbe);
 			@include background(linear-gradient( left, rgba(255,255,255,0) 0%,   rgba(187,188,190,1) 100% ));
 			&:after{
 				right: -5px;
 			}
 		}
 		.h-line-r{
+			filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 1, startColorstr = #bbbcbe, endColorstr = #fff);
 			@include background(linear-gradient( right, rgba(255,255,255,0) 0%,   rgba(187,188,190,1) 100% ));
 			&:after{
 				left: -5px;
@@ -469,6 +471,7 @@
 	left:0;
 	width: 100%;
 	background: rgba(0,0,0,.5);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000); 
 	font-size: 12px;
 	color: #fff; 
 	line-height: 28px;
@@ -686,6 +689,7 @@
 		height: 20px;  
 		position: relative;
 		color:#fff;
+		font-size: 0;
 		&:before{
 			position: absolute;
 			left: 0;

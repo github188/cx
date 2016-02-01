@@ -50,30 +50,30 @@ body {
 }
 
 .container {
-  width: auto;
-  margin: 0 15px;
+  width: 1100px;
+  margin: 0 auto;
   position: relative;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .container {
     width: auto;
     margin: 0 10px;
   }
 }
-@media only screen and (min-width: 1099px) {
+@media only screen and (max-width: 1099px) {
   .container {
     width: auto;
     margin: 0 10px;
   }
 }
-@media only screen and (min-width: 1099px) {
+@media only screen and (max-width: 1099px) {
   .container {
     width: 970px;
     margin: 0 auto;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   .container {
     width: 1100px;
     margin: 0 auto;
@@ -359,6 +359,7 @@ body {
   top: -2px;
 }
 .area-page h3 .h-line-l {
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 1, startColorstr = #fff, endColorstr = #bbbcbe);
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiYmJjYmUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
   background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, #bbbcbe));
   background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, #bbbcbe 100%);
@@ -369,6 +370,7 @@ body {
   right: -5px;
 }
 .area-page h3 .h-line-r {
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 1, startColorstr = #bbbcbe, endColorstr = #fff);
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjEuMCIgeTE9IjAuNSIgeDI9IjAuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiYmJjYmUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
   background: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, #bbbcbe));
   background: -moz-linear-gradient(right, rgba(255, 255, 255, 0) 0%, #bbbcbe 100%);
@@ -553,6 +555,7 @@ body {
   left: 0;
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);
   font-size: 12px;
   color: #fff;
   line-height: 28px;
@@ -786,6 +789,7 @@ body {
   height: 20px;
   position: relative;
   color: #fff;
+  font-size: 0;
 }
 .contactpage h2:before {
   position: absolute;
