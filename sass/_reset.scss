@@ -1,4 +1,4 @@
-html, body, div, header, blockquote, section, p, h1, h2, h3,h4,ul, ol, li, input, select, textarea, form ,nav{
+html, body, div, header, blockquote, section, p, h1, h2, h3,h4,ul, ol, li, input, select, textarea, form ,nav,dl,dt,dd{
      margin: 0;
      padding: 0;
      -webkit-tap-highlight-color: transparent;
@@ -27,5 +27,5 @@ html, body, div, header, blockquote, section, p, h1, h2, h3,h4,ul, ol, li, input
          outline: none;
 } 
  body, html {
-         height: 100%;
+        height: 100%;
 }
