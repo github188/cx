@@ -20,33 +20,40 @@
         <div class="header-nav">
             <ul class="container nav ">
                 <li ><a href="index.html">首页</a></li>
+                <li  ><a href="aboutme.html">畅星集团</a></li>
                 <li><a href="javascript:void(0)">平台与服务</a>
                     <ul class="sub-nav">
-                        <li><a href="javascript:void(0)">车联网平台</a></li>
-                        <li><a href="javascript:void(0)">位置关爱平台</a></li>
-                        <li><a href="javascript:void(0)">移动商务平台</a></li>
+                        <li><a href="qz-lpc.html">移动商务平台</a></li>
+                        <li><a href="wz-family.html">位置关爱平台</a></li>
+                        <li><a href="ydsw-wccx.html">移动商务平台</a></li>
                         <li><a href="javascript:void(0)">物联网平台</a></li>
                         <li><a href="javascript:void(0)">软件外包平台</a></li>
                     </ul>
                 </li>
-                <li><a href="javascript:void(0)">新闻中心</a></li>
+                <li><a href="newscenter.html">新闻中心</a></li>
                 <li  class="current"><a href="#">加入我们</a></li>
                 <li><a href="contactus.html">联系我们</a></li>
             </ul>
         </div>
     </div>
     <div class="scroll-wap">
-        <div class="banner-wap">
-            <div class="banner"></div>
-            <div class="breadcrumb">
-                <div class="container">当前位置 : <a href="javascript:void(0)">首页</a> <i class="icon-bcarrow"></i> <a href="">招聘信息</a></div>
+         <div class="banner-wap">
+            <div class="banner"><img src="images/banner/b-work.jpg" alt=""></div> 
+        </div>
+        <div class="crumbs-wap">
+            <div class="crumbs container">
+                <i class="i-crumbs">  </i> 当前位置 : <a href="javascript:void(0)">首页</a> <i class="icon-bcarrow"></i> <a href="">加入我们</a><i class="icon-bcarrow"></i> <a href="" class="current">工作环境</a>
             </div>
         </div>
         <div class="tab-wap">
-            <div class="tab container clearfix">
-                <a href="javascript:void(0)">员工发展</a>
-                <a href="javascript:void(0)">工作环境</a>
-                <a href="javascript:void(0)" class="current">招聘信息</a>
+            <div class="tabfix-wap">
+               <div class="tabfix">
+                    <div class="tab container clearfix">
+                       <a href="staffdevelopmen.html">员工发展</a>
+                       <a href="workenvironment.html">工作环境</a>
+                       <a href="javascript:void(0)" class="current">招聘信息</a>
+                   </div>
+               </div>
             </div>
             <div class="talent-page area-page tab-con">
             </div>
@@ -55,10 +62,10 @@
             <div class="talent-page area-page tab-con current">
                 <div class="container ">
                     <div class="page-h ">
-                        <h2>Talent concept </h2>
+                        <h2><img src="images/h/h-talent.png" alt="">Talent concept </h2>
                         <h3><span class="h-line-l">	</span>人才理念<span class="h-line-r">	</span></h3>
                     </div>
-                    <div class="page-con row  ">
+                    <div class="page-con">
                         <p class="company-inf"><span>秉承人本管理的思想内核，努力为员工构筑广阔的发展平台，让所有员工感受到工作的魅力，同时在工作中感受到对人生的意义和价值，成为一个有国际意识、充满热情、对社会有所贡献的员工。 高素质的员工队伍造就了畅星的今天。这支队伍里有在海外归国人士，将国外先进的科技带入畅星；有跨国企业管理精英，将先进的管理理念引入畅星；有高学历的人才，为畅星的业务发展打下坚实的基础；有优秀的有志青年，将自己的梦想融入到畅星，与畅星一同进步。 我们生活在充满机遇的时代，生活在充满竞争的时代，生活在日新月异、飞速发展的时代。在这样的时代里我们的员工需要积极交流、相互认同、共同发展，需要像亲人一样相互信任、相互帮助，充分发挥组织的能量。前途坎坷我们一起走过，胜利喜悦我们共同分享。
                         </span>
                         </p>
@@ -80,7 +87,7 @@
                             <p>
                                 自我肯定，并期待未来更大的成功；</p>
                             <p>
-                                积极进行自我了解，识别自我发展要素，并主动寻求发展机会和办法，不断提升自我</p>
+                                积极进行自我了解，识别自我发展要素，并主动寻求发展机会和办法，不断提升自我；</p>
                         </div>
                         <div class="job-inf">
                             <dl class="job-item">
@@ -211,6 +218,21 @@
             <p class="copyright"> © Copyright 2016 Shanghai Changxing Information Technology Co., Ltd. All Rights Reserved. 沪ICP备06019904号</p>
         </div>
     </div>
+        <script src="js/jquery.js"></script>
+    <script>
+        $(window).scroll(function( ) {
+            // body...
+            if($(window).scrollTop()>$(".tabfix-wap").offset().top )
+            {
+                $(".tabfix-wap").css("height",$(".tabfix-wap").outerHeight());
+                 $(".tabfix-wap").find(".tabfix").addClass("fix");
+            } 
+            else{
+                 $(".tabfix-wap").find(".tabfix").removeClass("fix");
+                  $(".tabfix-wap").css("height",'auto');
+            }
+        })
+    </script>
 </body>
 
 </html>

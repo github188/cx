@@ -1,14 +1,17 @@
 @font-face {
     font-family: 'icomoon';
-    src:    url('fonts/icomoon.eot?xeflqj');
-    src:    url('fonts/icomoon.eot?xeflqj#iefix') format('embedded-opentype'),
-        url('fonts/icomoon.ttf?xeflqj') format('truetype'),
-        url('fonts/icomoon.woff?xeflqj') format('woff'),
-        url('fonts/icomoon.svg?xeflqj#icomoon') format('svg');
+    src:    url('fonts/icomoon.eot?a4y22h');
+    src:    url('fonts/icomoon.eot?a4y22h#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?a4y22h') format('truetype'),
+        url('fonts/icomoon.woff?a4y22h') format('woff'),
+        url('fonts/icomoon.svg?a4y22h#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
-
+@font-face{
+       font-family: 'fzzzhjt' ; 
+        src:     url('fonts/方正正准黑简体.ttf') format('truetype');
+}
 [class^="icon-"], [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
@@ -24,55 +27,55 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-metro:before {
-    content: "\e910";
-}
-.icon-scrolltop:before {
-    content: "\e90f";
-}
 .icon-bcarrow:before {
-    content: "\e90c";
-}
-.icon-next:before {
-    content: "\e90d";
-}
-.icon-pre:before {
-    content: "\e90e";
-}
-.icon-email:before {
     content: "\e900";
 }
-.icon-fax:before {
+.icon-email:before {
     content: "\e901";
 }
-.icon-fullscreen:before {
+.icon-fax:before {
     content: "\e902";
 }
-.icon-map:before {
+.icon-fullscreen:before {
     content: "\e903";
 }
-.icon-mute:before {
+.icon-map:before {
     content: "\e904";
 }
-.icon-pause:before {
+.icon-metro:before {
     content: "\e905";
 }
-.icon-phone:before {
+.icon-mute:before {
     content: "\e906";
 }
-.icon-play:before {
+.icon-next:before {
     content: "\e907";
 }
-.icon-play-b:before {
+.icon-pause:before {
     content: "\e908";
 }
-.icon-unfullscreen:before {
+.icon-phone:before {
     content: "\e909";
 }
-.icon-vehicle:before {
+.icon-play:before {
     content: "\e90a";
 }
-.icon-voice:before {
+.icon-play-b:before {
     content: "\e90b";
+}
+.icon-pre:before {
+    content: "\e90c";
+}
+.icon-scrolltop:before {
+    content: "\e90d";
+}
+.icon-unfullscreen:before {
+    content: "\e90e";
+}
+.icon-vehicle:before {
+    content: "\e90f";
+}
+.icon-voice:before {
+    content: "\e910";
 }
 

@@ -1,4 +1,17 @@
 $base-font-size:   (  20px ) ;
+$t-color:#066ce0;
+$b-color:#066ce0;
 @function pxToRem($px) { 
   @return $px / $base-font-size * 1rem;
 }
+ @mixin sbrand( $ix ,$n:1){
+	 
+		 @for $i from 1 through $n{
+			 &:nth-child( #{$i} ) .logo
+			 { 
+			 	 background-position:  (0-((($i - 1))%$ix)*200)-10px      (0-(floor(($i - 1)/$ix))*100-10px)
+			 }
+		
+		}
+ 
+ }

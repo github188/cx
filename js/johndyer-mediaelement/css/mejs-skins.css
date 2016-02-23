@@ -300,9 +300,11 @@
 	-moz-border-radius:6px; 
    border-radius: 6px; 
 	height:36px; 
-	width: 94%;
-	margin:0 3% 10px;
-	line-height: 36px; 
+	left:18px;
+	right: 18px;
+	line-height: 36px;  
+    bottom: 10px;
+    width: auto;
 } 
  
 .mejs-my .mejs-controls  .mejs-time-rail{
@@ -356,7 +358,8 @@
 	height: 28px;*/
 	padding-left: 15px;
     width: 20px;
-    height: 20px;
+    height: 20px; 
+    overflow: visible;
 }
 .mejs-my .mejs-controls .mejs-playpause-button  button ,.mejs-my .mejs-controls .mejs-volume-button button,.mejs-my .mejs-controls .mejs-fullscreen-button  button{ 
     font-family: 'icomoon' !important;  
@@ -366,15 +369,17 @@
     height: auto;
     line-height: 36px;
     margin:0;
+    overflow: visible;
+    padding:0 1px;
 }
 .mejs-my .mejs-controls .mejs-playpause-button  button{
 	  font-size:20px; 
 }
 .mejs-my .mejs-controls .mejs-playpause-button  button:after{   
-    content: "\e907";
+    content: "\e90a";
 }
 .mejs-my .mejs-controls .mejs-pause button:after  { 
-    content: "\e905";
+    content: "\e908";
 }
 .mejs-my .mejs-controls .mejs-fullscreen-button{
 	width: 41px;
@@ -386,10 +391,10 @@
 }
 .mejs-my .mejs-controls .mejs-fullscreen-button  button:after{ 
 
-    content: "\e902";
+    content: "\e903";
 }
 .mejs-my .mejs-controls .mejs-unfullscreen  button:after{ 
-    content: "\e909";
+    content: "\e90e";
 }
 .mejs-my .mejs-controls .mejs-volume-button button {
 	position: relative;
@@ -400,11 +405,11 @@
 }
 .mejs-my .mejs-controls .mejs-mute button:after {  
    
-    content: "\e90b";
+    content: "\e910";
 }
 .mejs-my .mejs-controls .mejs-unmute button:after {   
   
-    content: "\e904";
+    content: "\e906";
 }
 /*.mejs-my .mejs-controls .mejs-unmute button {
 	background: url(../images/controls-ted.png) no-repeat -40px 0;
@@ -460,6 +465,19 @@
 }
 .mejs-my .mejs-controls .mejs-captions-button {
 	display: none;
+}
+.mejs-my .mejs-overlay-play{
+	background: rgba(0,0,0,.3);
+	width: 100%;
+}
+.mejs-my .mejs-overlay-button{
+	width: 58px;
+    height: 58px;
+    background-size: 100% 200%;
+    margin: -29px 0 0 -29px;
+}
+.mejs-my .mejs-overlay:hover .mejs-overlay-button{
+	    background-position: 0 -58px;
 }
 /* END: MY player */
 

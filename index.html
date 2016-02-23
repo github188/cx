@@ -9,10 +9,9 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="font/style.css">
     <script src="js/jquery.js"></script>
-    <script src="js/johndyer-mediaelement/mediaelement-and-player.min.js"></script>
     <link rel="stylesheet" href="js/johndyer-mediaelement/css/mediaelementplayer.css" />
     <link rel="stylesheet" href="js/johndyer-mediaelement/css/mejs-skins.css" />
-    <script src="js/respond.js"></script>
+    <!--     <script src="js/respond.js"></script> -->
 </head>
 
 <body>
@@ -26,16 +25,18 @@
         <div class="header-nav">
             <ul class="container nav ">
                 <li class="current"><a href="#">首页</a></li>
-                <li><a href="javascript:void(0)">平台与服务</a>
+                <li><a href="aboutme.html">畅星集团</a></li>
+                <li>
+                    <a href="javascript:void(0)">平台与服务</a>
                     <ul class="sub-nav">
-                        <li><a href="javascript:void(0)">车联网平台</a></li>
-                        <li><a href="javascript:void(0)">位置关爱平台</a></li>
-                        <li><a href="javascript:void(0)">移动商务平台</a></li>
+                        <li><a href="qz-lpc.html">移动商务平台</a></li>
+                        <li><a href="wz-family.html">位置关爱平台</a></li>
+                        <li><a href="ydsw-wccx.html">移动商务平台</a></li>
                         <li><a href="javascript:void(0)">物联网平台</a></li>
                         <li><a href="javascript:void(0)">软件外包平台</a></li>
                     </ul>
                 </li>
-                <li><a href="javascript:void(0)">新闻中心</a></li>
+                <li><a href="newscenter.html">新闻中心</a></li>
                 <li><a href="joinus.html">加入我们</a></li>
                 <li><a href="contactus.html">联系我们</a></li>
             </ul>
@@ -44,9 +45,39 @@
     <div class="scroll-wap">
         <div class="carousel-wap">
             <ul class="carousel">
+                <li class="current">
+                    <a href="javascript:void(0)">
+                        <img src="images/banner/banner1.jpg" alt="">
+                        <div class="container carousel-txt-wap bl">
+                            <h2>车联网生活的引航员：路盼</h2> </div>
+                    </a>
+                </li>
+                <li>EE
+                    <a href="javascript:void(0)">
+                        <img src="images/banner/banner2.jpg" alt="">
+                        <div class="container carousel-txt-wap tr">
+                         <h2>世界范围的精准蓝图：数字地图</h2> </div>
+                    </a>
+                </li>
                 <li>
-                    <a href="javascript:void(0)" class="current">
-                        <img src="images/banner/banner1.png" alt="">
+                    <a href="javascript:void(0)">
+                        <img src="images/banner/banner3.jpg" alt="">
+                        <div class="container carousel-txt-wap  tl">
+                            <h2>亲情和位置息息相关：亲在哪</h2> </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <img src="images/banner/banner4.jpg" alt="">
+                        <div class="container carousel-txt-wap  br">
+                            <h2>高效管理与信息服务：商用车管理</h2> </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <img src="images/banner/banner5.jpg" alt="">
+                        <div class="container carousel-txt-wap tl">
+                            <h2>云端技术保障升降安全：电梯云</h2> </div>
                     </a>
                 </li>
             </ul>
@@ -61,9 +92,39 @@
             <div class="box new-list ">
                 <div class="box-h">
                     <i class="circle"></i>最新资讯
-                    <a  class="btn-more" href="javascript:void(0)">more</a>
+                    <a class="btn-more" href="javascript:void(0)">more</a>
                 </div>
                 <div class="box-c row clearfix current">
+                    <div class="new-item">
+                        <div class="img-wap">
+                            <img src="images/item1.png" alt="">
+                        </div>
+                        <p class="new-item-txt">RoadPal路盼作为中国 电信车联网产品 在2015年 .. </p>
+                        <p class="new-item-time">2015-07</p>
+                    </div>
+                    <div class="new-item">
+                        <div class="img-wap">
+                            <img src="images/item1.png" alt="">
+                        </div>
+                        <p class="new-item-txt">RoadPal路盼作为中国电信车联网产品在2015年世界 ... </p>
+                        <p class="new-item-time">2015-07</p>
+                    </div>
+                    <div class="new-item">
+                        <div class="img-wap">
+                            <img src="images/item1.png" alt="">
+                        </div>
+                        <p class="new-item-txt">RoadPal路盼作为中国电信车联网产品在2015年世界 ... </p>
+                        <p class="new-item-time">2015-07</p>
+                    </div>
+                    <div class="new-item">
+                        <div class="img-wap">
+                            <img src="images/item1.png" alt="">
+                        </div>
+                        <p class="new-item-txt">RoadPal路盼作为中国电信车联网产品在2015年世界... </p>
+                        <p class="new-item-time">2015-07</p>
+                    </div>
+                </div>
+                <div class="box-c row clearfix ">
                     <div class="new-item">
                         <div class="img-wap">
                             <img src="images/item1.png" alt="">
@@ -106,8 +167,16 @@
                 </div>
                 <div class="box-c">
                     <!-- poster设置视频的预览图-->
-                    <video width="100% " height="100%" controls="controls" poster="images/video.png" class="mejs-my">
-                        <source src="images/mi.mp4" type="video/mp4">
+                    <video id="myvideo" controls="controls" poster="images/video.png" class="mejs-my" style="width:100%;height:100%">
+                        <source src="images/mi.mp4" type="video/mp4" />
+                        <source src="images/mi.swf" type="video/swf" />
+                        <source src="images/mi.wmv" type="video/wmv" />
+                        <object id="myobject" type="application/x-shockwave-flash" data="images/mi.swf">
+                            <param name="movie" value="images/mi.swf" />
+                            <param name="flashvars" value="images/mi.mp4" />
+                            <!-- Image as a last resort -->
+                            <img src="images/video.png" title="No video playback capabilities" />
+                        </object>
                     </video>
                 </div>
             </div>
@@ -115,37 +184,37 @@
         <div class="platform-page area-page">
             <div class="container   ">
                 <div class="page-h ">
-                    <h2>platform & services </h2>
-                    <h3><span class="h-line-l">	</span>平台与服务<span class="h-line-r">	</span></h3>
+                    <h2><img src="images/h/h-platform.png" alt="">platform & services </h2>
+                    <h3><span class="h-line-l"> </span>平台与服务<span class="h-line-r"> </span></h3>
                 </div>
                 <div class="page-con row  ">
                     <a href="javascript:void(0)" class="flatform-item">
-                        <i class="i-flatform  i-flatform-0">	
-						</i>
+                        <i class="i-flatform  i-flatform-0">    
+                        </i>
                         <h4>车联网平台</h4>
                         <p>完全自主研发完全自主研完全自主研发完全</p>
                     </a>
                     <a href="javascript:void(0)" class="flatform-item">
-                        <i class="i-flatform  i-flatform-1">	
-						</i>
+                        <i class="i-flatform  i-flatform-1">    
+                        </i>
                         <h4>位置关爱平台</h4>
                         <p>完全自主研发完全自主研完全自主研发完全</p>
                     </a>
                     <a href="javascript:void(0)" class="flatform-item">
-                        <i class="i-flatform  i-flatform-2">	
-						</i>
+                        <i class="i-flatform  i-flatform-2">    
+                        </i>
                         <h4>移动商务平台</h4>
                         <p>完全自主研发完全自主研完全自主研发完全</p>
                     </a>
                     <a href="javascript:void(0)" class="flatform-item">
-                        <i class="i-flatform i-flatform-3">	
-						</i>
+                        <i class="i-flatform i-flatform-3"> 
+                        </i>
                         <h4>物联网平台</h4>
                         <p>完全自主研发完全自主研完全自主研发完全</p>
                     </a>
                     <a href="javascript:void(0)" class="flatform-item">
-                        <i class="i-flatform i-flatform-4">	
-						</i>
+                        <i class="i-flatform i-flatform-4"> 
+                        </i>
                         <h4>软件外包服务</h4>
                         <p>完全自主研发完全自主研完全自主研发完</p>
                     </a>
@@ -155,51 +224,164 @@
         <div class="product-page area-page">
             <div class="container ">
                 <div class="page-h ">
-                    <h2>SIS Products </h2>
-                    <h3><span class="h-line-l">	</span>集团旗下产品<span class="h-line-r">	</span></h3>
+                    <h2><img src="images/h/h-products.png " alt="">SIS Products </h2>
+                    <h3><span class="h-line-l"> </span>集团旗下产品<span class="h-line-r">    </span></h3>
                 </div>
                 <div class="page-con row  ">
                     <a href="javascript:void(0)" class="product-item">
-                        <i class="i-product  i-product-0">	
-						</i>
+                        <i class="i-product  i-product-0">  
+                        </i>
                     </a>
                     <a href="javascript:void(0)" class="product-item">
-                        <i class="i-product i-product-1">	
-						</i>
+                        <i class="i-product i-product-1">   
+                        </i>
                     </a>
                     <a href="javascript:void(0)" class="product-item">
-                        <i class="i-product  i-product-2">	
-						</i>
+                        <i class="i-product  i-product-2">  
+                        </i>
                     </a>
                     <a href="javascript:void(0)" class="product-item">
-                        <i class="i-product i-product-3">	
-						</i>
-                    </a>  
+                        <i class="i-product i-product-3">   
+                        </i>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
     <div class="footer">
-    	<div class="container">
-    			<div class="footer-nav"> 
-    			    		<a href="javascript:void(0)">首页</a>
-    			    		<a href="javascript:void(0)">平台与服务</a>
-    			            <a href="javascript:void(0)">新闻中心</a>
-    			            <a href="javascript:void(0)">加入我们</a>
-    			            <a href="javascript:void(0)">联系我们</a>
-    			            
-    			</div>
-    			<p class="copyright">	© Copyright 2016 Shanghai Changxing Information Technology Co., Ltd. All Rights Reserved.    沪ICP备06019904号</p>
-    	</div>
+        <div class="container">
+            <div class="footer-nav">
+                <a href="javascript:void(0)">首页</a>
+                <a href="javascript:void(0)">平台与服务</a>
+                <a href="javascript:void(0)">新闻中心</a>
+                <a href="javascript:void(0)">加入我们</a>
+                <a href="javascript:void(0)">联系我们</a>
+            </div>
+            <p class="copyright"> © Copyright 2016 Shanghai Changxing Information Technology Co., Ltd. All Rights Reserved. 沪ICP备06019904号</p>
+        </div>
     </div>
+    <script src="js/johndyer-mediaelement/mediaelement-and-player.min.js"></script>
     <script>
     // using jQuery
-    $('audio,video').mediaelementplayer({
-        success: function(player, node) {
-            $('#' + node.id + '-mode').html('mode: ' + player.pluginType);
-        }
+    $(function() {
+        $("#myvideo").attr("width", "480").attr("height", "260");
+        $('audio,video').mediaelementplayer({
+            success: function(player, node) {
+                $('#' + node.id + '-mode').html('mode: ' + player.pluginType);
+            }
+        });
+       
+        
     });
     </script>
+       <script >
+$(function(){
+    var bannerInteval = setInterval(changeBanner,5000);
+    var newsInteval = setInterval(changeNews,5000); 
+    
+    initBanner();
+    initVideo();
+    
+    $(window).resize(function(){
+        initBanner();
+    });
+    
+    $(".carousel-wap").mouseenter(function(){
+        clearInterval(bannerInteval);
+    });
+    $(".carousel-wap").mouseleave(function(){
+        bannerInteval = setInterval(changeBanner,5000);
+    });
+    $(".new-list").mouseenter(function(){
+        clearInterval(newsInteval);
+    });
+    $(".new-list").mouseleave(function(){
+        newsInteval = setInterval(changeNews,5000);
+    });
+    
+});
+
+function initVideo() {
+    var ua = navigator.userAgent.toLocaleLowerCase();
+    if (ua.match(/firefox/) != null || ua.match(/opera/) != null||ua.match(/chrome/) != null|| ua.match(/safari/) != null) {
+        $('video').mediaelementplayer({  
+            success: function(player, node) {
+                $('#' + node.id + '-mode').html('mode: ' + player.pluginType);
+            }
+        });
+    } else {
+        if ($.support.leadingWhitespace) {
+            $('video').mediaelementplayer({  
+                success: function(player, node) {
+                    $('#' + node.id + '-mode').html('mode: ' + player.pluginType);
+                }
+            });
+        }
+    }
+}
+
+function initBanner() {
+    var width = $('body').width();
+    if(width < 1024) {
+        width = 1024;
+    } 
+    var height = Math.floor(width * 676 / 1920);
+    $(".carousel").height(height);
+    $(".carousel img").width(width);
+    $(".carousel img").height(height);
+}
+
+
+function changeBanner() {
+    var cur_li = $(".carousel-wap .carousel li[class='current']");
+    var cur_num_li = $(".carousel-wap .carousel-indicators a[class='current']");
+    var next_li = $(cur_li).next();
+    var next_num_li = $(cur_num_li).next();
+    if(next_li.html()){
+        $(next_li).siblings().removeClass('current').hide();
+        $(next_li).addClass('current').show();
+        $(next_num_li).siblings().removeClass('current');
+        $(next_num_li).addClass('current');
+    } else {
+        $(".carousel-wap .carousel li").first().siblings().removeClass('current').hide();
+        $(".carousel-wap .carousel li").first().addClass('current').show();
+        $(".carousel-wap .carousel-indicators a").first().siblings().removeClass('current');
+        $(".carousel-wap .carousel-indicators a").first().addClass('current');
+    }   
+}
+
+function changeNews() {
+    var cur_li = $(".new-list div[class*='current']");
+    var cur_num_li = $(".new-list .box-indicators a[class='current']");
+    var next_li = $(cur_li).next('.news');
+    var next_num_li = $(cur_num_li).next();
+    if(next_li.html()){
+        $(next_li).siblings('.news').removeClass('current').hide();
+        $(next_li).addClass('current').show();
+        $(next_num_li).siblings().removeClass('current');
+        $(next_num_li).addClass('current');
+    } else {
+        $(".new-list .news").first().siblings('.news').removeClass('current').hide();
+        $(".new-list .news").first().addClass('current').show();
+        $(".new-list .box-indicators a").first().siblings().removeClass('current');
+        $(".new-list .box-indicators a").first().addClass('current');
+    }   
+}
+
+function selectBanner(id) {
+    $("#banner"+id).siblings().removeClass('current').hide();
+    $("#banner"+id).addClass("current").show();
+    $("#selectbanner"+id).addClass("current");
+    $("#selectbanner"+id).siblings().removeClass('current');
+}
+
+function selectNews(id) {
+    $("#news"+id).siblings('.news').removeClass('current').hide();
+    $("#news"+id).addClass("current").show();
+    $("#selectnews"+id).addClass("current");
+    $("#selectnews"+id).siblings().removeClass('current');
+}
+</script>  
 </body>
 
 </html>

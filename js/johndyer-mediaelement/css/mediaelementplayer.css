@@ -10,6 +10,7 @@
 
 .mejs-container {
 	position: relative; 
+	background: #333;
 	font-family: Helvetica, Arial;
 	text-align: left;
 	vertical-align: top;
